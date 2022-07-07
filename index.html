@@ -14,9 +14,47 @@
     </header>
     <main>
       <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-        <section role="region" aria-labelledby="student-info">
-          <h2 id="student-info">Student Info</h2>
-          <div class="info">
+        <section role="region" aria-labelledby="question-1">
+          <h2 id="question-1">1. Serif vs. Sans Serif</h2>
+          <div class="question-block">
+            <p>When fonts work together they can communicate messages. Some fonts are barely noticeable while others can communicate feelings on their own. Fonts are classified into categories, but the main two are serif and sans serif. What is a serif? It is the decorative line attached to the end of a stroke. What does the word “sans” mean? Without. So sans serif means "without a serif."  Serif fonts are considered traditional and formal, whearas sans serif fonts are more minimalist and clean.
+              </p>
+              <img id="serif-sans-serif" src="https://github.com/stylist14/Photos/blob/main/Serif_vs_Sans_Serif.jpg?raw=true" alt="illustration of a serif font">
+
+            <fieldset class="question" name="question-three">
+              <legend>
+                Test your knowledge
+              </legend>
+              <p>Select the fonts that are sans serif:</p>
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" name="q1" value="true" />
+                    Montserrat
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" name="q1" value="false" />
+                    Courier New
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a3">
+                    <input type="radio" id="q1-a3" name="q1" value="false" />
+                    Garamond
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a4">
+                    <input type="radio" id="q1-a4" name="q1" value="false" />
+                    Times New Roman
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        <!--   <div class="info">
             <label for="student-name">Name:</label>
             <input type="text" name="student-name" id="student-name" />
           </div>
@@ -27,34 +65,48 @@
           <div class="info">
             <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
             <input type="date" name="birth-date" id="birth-date" />
-          </div>
+          </div>  -->
         </section>
-        <section role="region" aria-labelledby="html-questions">
-          <h2 id="html-questions">HTML</h2>
+        <section role="region" aria-labelledby="question-2">
+          <h2 id="question-2">2. Kearning</h2>
           <div class="question-block">
-            <p>1</p>
-            <fieldset class="question" name="html-question-one">
+            <p>Kearning deals with the space between letters. Imagine that all letters have a box around them and the boxes have to butt up against each other. Picture a T with lots of space under it. Letters look more cohesive when they are nested under the line of the T, as in Te. That’s where kearning comes in! All good fonts will customize the relationship between letter pairs like this.
+            </p>
+            <img id="kearning" src="https://github.com/stylist14/Photos/blob/main/Kearning.jpg?raw=true" alt="example of kearning">
+            <fieldset class="question" name="question-two">
               <legend>
-                The legend element represents a caption for the content of its
-                parent fieldset element
+                Test your knowledge
               </legend>
+              <p>Select the letter pairs that needed some special kearning to look right:</p>
               <ul class="answers-list">
                 <li>
-                  <label for="q1-a1">
-                    <input type="radio" id="q1-a1" name="q1" value="true" />
-                    True
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" name="q2" value="true" />
+                    W A
                   </label>
                 </li>
                 <li>
-                  <label for="q1-a2">
-                    <input type="radio" id="q1-a2" name="q1" value="false" />
-                    False
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" name="q2" value="false" />
+                    H O
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a3">
+                    <input type="radio" id="q2-a3" name="q2" value="true" />
+                    T A
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a4" name="q2" value="false" />
+                    B R
                   </label>
                 </li>
               </ul>
             </fieldset>
           </div>
-          <div class="question-block">
+          <!-- <div class="question-block">
             <p>2</p>
             <fieldset class="question" name="html-question-two">
               <legend>
@@ -76,37 +128,425 @@
                 </li>
               </ul>
             </fieldset>
-          </div>
+          </div> -->
         </section>
-        <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS</h2>
+
+        <section role="region" aria-labelledby="question-3">
+          <h2 id="question-3">3. Font Combinations</h2>
+          <div class="question-block">
+            <p>How do you know what typefaces will work together? Fonts have a relationship with each other on the page. It can be one of these 3 types: 
+              <p><h3>1. Concordant:</h3> Fonts of the same family, but varying thicknesses and sizes. This works well.
+              For example: Montserrat thin, Montserrat bold, Montserrat italic.
+            </p>
+              <p><h3>2. Conflicting:</h3> This happens when fonts are similar, but not the same. Don’t do it! The similarities conflict.
+              For example: Using an italic and a script together. Or using Times New Roman and Georgia together.
+            </p>
+              <p><h3>3. Contrasting:</h3> When you combine two distinct fonts they can be exciting and visually appealing. Make sure they are very different so it looks like it was on purpose!
+              For example: Bold Sans Serif & a serif, San Serif and a playful font, ALL CAPS & Script.
+              
+            </p>
+            <fieldset class="question" name="question-three">
+              <legend>
+                Test your knowledge
+              </legend>
+              <p>Do these fonts contrast or conflict?</p>
+              <p class="Arial">Arial</p><p class="Century Gothic">Century Gothic</p>
+              <ul class="answers-list">
+                <li>
+                  <label for="q3-a1">
+                    <input type="radio" id="q3-a1" name="q3" value="true" />
+                    Contrast
+                  </label>
+                </li>
+                <li>
+                  <label for="q3-a2">
+                    <input type="radio" id="q3-a2" name="q3" value="false" />
+                    Conflict
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+
+          <section role="region" aria-labelledby="question-4">
+            <h2 id="question-4">4. Categories of Type</h2>
+            <div class="question-block">
+              <p>There are six main categories of type: Old Style, Modern, Slab Serif, Sans Serif, Script and Decorative.</p>
+              
+                <h3>Old Style</h3> <p>These serif fonts have a noticeable thick to thin transition. They have a slanted serif, and diagonal stress to mimic the angle of the old pens.
+                </p>
+                <fieldset class="question" name="question-four">
+                  <legend>
+                    Test your knowledge
+                  </legend>
+                <p>Select the fonts that belong to the Old Style category:</p>
+                      <ul class="answers-list">
+                        <li>
+                          <label for="q4-a1">
+                            <input type="radio" id="q4-a1" name="q4" value="true" />
+                            Libre Baskerville, Garamond
+                          </label>
+                        </li>
+                        <li>
+                          <label for="q4-a2">
+                            <input type="radio" id="q4-a2" name="q4" value="false" />
+                            Arial
+                          </label>
+                        </li>
+                      </ul>
+              </fieldset>
+            
+              
+                <h3>Modern</h3> <p>These serif fonts have a perpendicular serif line, and a vertical stress (meaning it's thicker on the vertical strokes). It no longer looks hand-drawn, and is more extreme in the thick and thin contrast.
+                </p>
+                <fieldset class="question" name="question-five">
+                  <legend>
+                    Test your knowledge
+                  </legend>
+                <p> Select the fonts that belong to the Modern category:</p>
+                      <ul class="answers-list">
+                        <li>
+                          <label for="q5-a1">
+                            <input type="radio" id="q5-a1" name="q5" value="true" />
+                            Bodoni, Playfair
+                          </label>
+                        </li>
+                        <li>
+                          <label for="q5-a2">
+                            <input type="radio" id="q5-a2" name="q5" value="false" />
+                            Comfortaa
+                          </label>
+                        </li>
+                      </ul>
+                    </fieldset>
+
+                    
+                      <h3>Slab Serif</h3> <p>This serif style came along with the industrial revolution and is thicker all around, and more readable than the modern or old style serifs.
+                      </p>
+                      <fieldset class="question" name="question-six">
+                        <legend>
+                          Test your knowledge
+                        </legend>
+                      <p>Select the fonts that belong to the Slab Serif category:</p>
+                            <ul class="answers-list">
+                              <li>
+                                <label for="q6-a1">
+                                  <input type="radio" id="q6-a1" name="q6" value="false" />
+                                  Impact
+                                </label>
+                              </li>
+                              <li>
+                                <label for="q6-a2">
+                                  <input type="radio" id="q6-a2" name="q6" value="true" />
+                                  Roboto Slab
+                                </label>
+                              </li>
+                            </ul>
+                          </fieldset>
+
+                          
+                            <h3>Sans Serif</h3> <p>Usually monoweight–no thick/thin transitions–and no serifs on the ends of the strokes.
+                            </p>
+                            <fieldset class="question" name="question-seven">
+                              <legend>
+                                Test your knowledge
+                              </legend>
+                            <p>Select the fonts that belong to the Sans Serif category:</p>
+                                  <ul class="answers-list">
+                                    <li>
+                                      <label for="q7-a1">
+                                        <input type="radio" id="q7-a1" name="q7" value="false" />
+                                        Garamond
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label for="q7-a2">
+                                        <input type="radio" id="q7-a2" name="q7" value="true" />
+                                        Montserrat
+                                      </label>
+                                    </li>
+                                  </ul>
+                                </fieldset>
+
+                                
+                                  <h3>Script</h3> <p>Hand lettered, calligraphy, cursive. Use sparingly.
+                                  </p>
+                                  <fieldset class="question" name="question-eight">
+                                    <legend>
+                                      Test your knowledge 
+                                    </legend>
+                                  <p>Select the fonts that belong to the Script category:</p>
+                                        <ul class="answers-list">
+                                          <li>
+                                            <label for="q8-a1">
+                                              <input type="radio" id="q8-a1" name="q8" value="true" />
+                                              Lobster, Dancing Script
+                                            </label>
+                                          </li>
+                                          <li>
+                                            <label for="q8-a2">
+                                              <input type="radio" id="q8-a2" name="q8" value="false" />
+                                              Georgia
+                                            </label>
+                                          </li>
+                                        </ul>
+                                      </fieldset>
+
+                                      
+                                        <h3>Decorative</h3> <p>Very expressive and distinctive. Not for text blocks. Use sparingly.
+                                        </p>
+                                        <fieldset class="question" name="question-nine">
+                                          <legend>
+                                            Test your knowledge
+                                          </legend>
+                                        <p>Select the fonts that belong to the Decorative category:</p>
+                                              <ul class="answers-list">
+                                                <li>
+                                                  <label for="q9-a1">
+                                                    <input type="radio" id="q9-a1" name="q9" value="true" />
+                                                    Decorative Font(western style)
+                                                  </label>
+                                                </li>
+                                                <li>
+                                                  <label for="q9-a2">
+                                                    <input type="radio" id="q9-a2" name="q9" value="false" />
+                                                    Tahoma
+                                                  </label>
+                                                </li>
+                                              </ul>
+                                            </fieldset>
+
+
+            </div>
+
+
+            <section role="region" aria-labelledby="question-10">
+              <h2 id="question-10">5. Old Style vs. Modern Serif Fonts</h2>
+              <div class="question-block">
+                <p>Old style and modern serif fonts look a lot alike and it could be confusing to tell them apart, but they have some distinct differences to the trained eye. Look at the serifs and see if they are perpendicular or angled? Look at the thinnest part of the letter forms, are they vertical or angled? This is how you can distinguish between “Old Style” and “Modern” serif fonts. It's important to name these font types because they can be conflicting if you use them together.
+                </p>
+                <img id="old-style" src="https://github.com/stylist14/Photos/blob/main/OldStyleFont.jpg?raw=true" alt="example of an old style font">
+                <img id="modern" src="https://github.com/stylist14/Photos/blob/main/ModernFont.jpg?raw=true" alt="example of a modern font">
+                <fieldset class="question" name="question-ten">
+                  <legend>
+                    Test your knowledge
+                  </legend>
+                  <p>What style is this font?</p>
+                  <ul class="answers-list">
+                    <p class="didiot">Didiot</p>
+                    <li>
+                      <label for="q10-a1">
+                        <input type="radio" id="q10-a1" name="q10" value="true" />
+                        Modern
+                      </label>
+                    </li>
+                    <li>
+                      <label for="q10-a2">
+                        <input type="radio" id="q10-a2" name="q10" value="false" />
+                        Old Style
+                      </label>
+                    </li>
+                  </ul>
+
+                  <ul class="answers-list">
+                    <p class="times-new-roman">Times New Roman</p>
+                    <li>
+                      <label for="q11-a1">
+                        <input type="radio" id="q11-a1" name="q11" value="false" />
+                        Modern
+                      </label>
+                    </li>
+                    <li>
+                      <label for="q11-a2">
+                        <input type="radio" id="q11-a2" name="q11" value="true" />
+                        Old Style
+                      </label>
+                    </li>
+                  </ul>
+                  
+                </fieldset>
+              </div>
+
+
+        <section role="region" aria-labelledby="question-12">
+          <h2 id="question-12">6. Readability</h2>
+          <p>Have you ever considered the white space inside a letter? This is the “counter.” Letters with counter-space are p, b, d, e, B, O, etc. The opening of these counters is called an “aperture.” Fonts designed for legibility have wide-open apertures so they can be viewed from a distance and distinguished from other letters.
+            Open apertures: Lucida Grande, Trebuchet MS, Corbel and Droid Sans
+            Closed apertures: Grotesque or neo-grotesque sans-serif fonts like Helvetica use very closed apertures.
+            </p>
+            <fieldset>
+              <legend>
+               Test your knowledge
+              </legend>
           <div class="formrow">
             <div class="question-block">
-              <label for="customer">Are you a frontend developer?</label>
+              <label for="customer">Is an open aperture more legible?</label>
             </div>
             <div class="answer">
               <select name="customer" id="customer" required>
                 <option value="">Select an option</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="yes">yes</option>
+                <option value="no">no</option>
               </select>
             </div>
-            <div class="question-block">
-              <label for="css-questions">Do you have any questions:</label>
-            </div>
-            <div class="answer">
-              <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
-            </div>
+          </fieldset>
+
+            <section role="region" aria-labelledby="question-13">
+              <h2 id="question-13">7. Use Contrast to your advantage!</h2>
+              <div class="question-block">
+                <p>Contrast is a basic principle of design. It’s what makes a reader look at a page. “Avoid elements on the page that are merely similar. If the elements are not the same, then make them very different” (Robin Williams, The Non-Designer’s Design Book, 13). When pairing fonts, use their differences to make striking combinations. Remember: opposites attract!
+                </p>
+                <fieldset class="question" name="question-13">
+                  <legend>
+                    Test your knowledge
+                  </legend>
+                  <p>Pair a large and a small font?</p>
+                  <ul class="answers-list">
+                    <li>
+                      <label for="q13-a1">
+                        <input type="radio" id="q13-a1" name="q13" value="true" />
+                        Do
+                      </label>
+                    </li>
+                    <li>
+                      <label for="q13-a2">
+                        <input type="radio" id="q13-a2" name="q13" value="false" />
+                        Don't
+                      </label>
+                    </li>
+                  </ul>
+
+                  <p>Pair a heavy weight font with a thin font?</p>
+                  <ul class="answers-list">
+                    <li>
+                      <label for="q14-a1">
+                        <input type="radio" id="q14-a1" name="q14" value="true" />
+                        Do
+                      </label>
+                    </li>
+                    <li>
+                      <label for="q13-a2">
+                        <input type="radio" id="q14-a2" name="q14" value="false" />
+                        Don't
+                      </label>
+                    </li>
+                  </ul>
+
+                  <p>Pair an italic font with a script font?</p>
+                  <ul class="answers-list">
+                    <li>
+                      <label for="q15-a1">
+                        <input type="radio" id="q15-a1" name="q15" value="false" />
+                        Do
+                      </label>
+                    </li>
+                    <li>
+                      <label for="q15-a2">
+                        <input type="radio" id="q15-a2" name="q15" value="true" />
+                        Don't
+                      </label>
+                    </li>
+                  </ul>
+
+                  <p>Pair an old style font with a modern font?</p>
+                  <ul class="answers-list">
+                    <li>
+                      <label for="q16-a1">
+                        <input type="radio" id="q16-a1" name="q16" value="false" />
+                        Do
+                      </label>
+                    </li>
+                    <li>
+                      <label for="q16-a2">
+                        <input type="radio" id="q16-a2" name="q16" value="true" />
+                        Don't
+                      </label>
+                    </li>
+                  </ul>
+
+              <p>Pair an all caps font with a lowercase font?</p>
+              <ul class="answers-list">
+                <li>
+                  <label for="q17-a1">
+                    <input type="radio" id="q17-a1" name="q17" value="true" />
+                    Do
+                  </label>
+                </li>
+                <li>
+                  <label for="q17-a2">
+                    <input type="radio" id="q17-a2" name="q17" value="false" />
+                    Don't
+                  </label>
+                </li>
+              </ul>
+
+
+              <p>Pair an italic font with a regular, straight up font?</p>
+              <ul class="answers-list">
+                <li>
+                  <label for="q18-a1">
+                    <input type="radio" id="q18-a1" name="q18" value="true" />
+                    Do
+                  </label>
+                </li>
+                <li>
+                  <label for="q18-a2">
+                    <input type="radio" id="q18-a2" name="q18" value="false" />
+                    Don't
+                  </label>
+                </li>
+              </ul>
+
+              
+              <p>Pair a bold sans serif font with a curly script font?</p>
+              <ul class="answers-list">
+                <li>
+                  <label for="q19-a1">
+                    <input type="radio" id="q19-a1" name="q19" value="true" />
+                    Do
+                  </label>
+                </li>
+                <li>
+                  <label for="q19-a2">
+                    <input type="radio" id="q19-a2" name="q19" value="false" />
+                    Don't
+                  </label>
+                </li>
+              </ul>
+
+            </fieldset>
+          </div>
+              <section role="region" aria-labelledby="question-20">
+                <h2 id="question-20">8. Use Color to your advantage!</h2>
+                <div class="question-block">
+                  <p>Use color to make an impact. Create repetition in your designs by incorporating color into your text headers, or use color to emphasize words or phrases. Colors have power. Warm colors stand out, and cool colors recede. To use a cool color effectively, you will generally need more of it!
+                    </p>
+                  <fieldset class="question" name="question-twenty">
+                    <legend>
+                      Test your knowledge
+                    </legend>
+                    <div class="question-block">
+                      <label for="question-20">List 3 colors that would stand out in small quantities:</label>
+                    </div>
+                    <div class="answer">
+                      <textarea id="question-20" name="question-20" rows="5" cols="24" placeholder="Type here..."></textarea>
+                    </div>
+                  </fieldset>
+                </div>
+
+
+
+
           </div>
         </section>
         <button type="submit">Submit</button>
       </form>
     </main>
+
     <footer>
       <address>
-        <a href="https://freecodecamp.org">freeCodeCamp</a><br />
-        San Francisco<br />
-        California<br />
+        <a href=" ">by Katie Hill</a><br />
+        Utah<br />
         USA
       </address>
     </footer>

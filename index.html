@@ -7,6 +7,12 @@
     <title>Font quiz for learning about font styles and best font pairs.</title>
     <script src="script.js"></script>
     <style src="style.css"></style>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Meow Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Plaster' rel='stylesheet'>
   </head>
   
   <body>
@@ -107,25 +113,32 @@
           <h2 id="question-3">3. Font Combinations</h2>
           <div class="question-block">
             <p>How do you know what typefaces will work together? Fonts have a relationship with each other on the page. It can be one of these 3 types: 
-              <h3>1. Concordant:</h3> 
-              <p>Fonts of the same family, but varying thicknesses and sizes. This works well.
-              For example: Montserrat thin, Montserrat bold, Montserrat italic.
+              <h3>👍 Concordant:</h3> 
+              <p>Fonts of the same family, but varying thicknesses and sizes. This works well.</p>
+             <p> For example:
+              <span style="font-family:Montserrat, sans-serif; font-style:thin">Montserrat Thin</span>,
+              <span style="font-family:Montserrat, sans-serif; font-weight:900">Montserrat Bold</span>, <span style="font-family:Montserrat,sans-serif; font-style:italic">Montserrat Italic</span>.
             </p>
-            <h3>2. Conflicting:</h3>
-              <p>This happens when fonts are similar, but not the same. Don’t do it! The similarities conflict.
-              For example: Using an italic and a script together. Or using Times New Roman and Georgia together.
+              <h3>👎 Conflicting:</h3>
+              <p> This happens when fonts are similar, but not the same. Don’t do it! The similarities conflict.</p>
+             <p> For example: <span style="font-family:Georgia; font-style:italic">Using an italic</span> <span style="font-family:'Sofia', Brush Script MT">and a script together.</span> Or using <span style="font-family:Times New Roman, Times">Times New Roman</span> <span style="font-family:Georgia, Serif"> and Georgia together.</span>
             </p>
-            <h3>3. Contrasting:</h3>
-              <p> When you combine two distinct fonts they can be exciting and visually appealing. Make sure they are very different so it looks like it was on purpose!
-              For example: Bold Sans Serif & a serif, San Serif and a playful font, ALL CAPS & Script.
+              <h3>👍 Contrasting:</h3>
+              <p> When you combine two distinct fonts they can be exciting and visually appealing. Make sure they are very different so it looks like it was on purpose!</p>
+              <p>For example: <span style="font-family:Georgia, Serif; font-style:bold; font-size: 20pt">A Bold Serif</span> <span style="font-family:Montserrat, sans-serif;"> with a Sans Serif</span> 
+              <br>
+              <span style="font-family:Verdana, sans-serif;">Sans Serif</span> <span style="font-family:plaster, Brush Script MT"> and a playful font</span>
+              <br>
+              ALL CAPS <span style="font-family:Meow Script, Brush Script MT; font-size: 20pt">& a beautiful Script</span></p>
+              
             </p>
             <fieldset class="question" name="question-three">
               <legend>
                 Test your knowledge
               </legend>
               <p>Do these fonts contrast or conflict?</p>
-              <p class="Arial">Arial</p><p class="Century Gothic">Century Gothic</p>
-              <ul class="answers-list">
+              <p class="Arial">Arial & <span style="font-family:Century Gothic, sans-serif; font-size: 18px">Century Gothic</span>
+              <ul class="answers-list"></p>
                 <li>
                   <label for="q3-a1">
                     <input type="radio" id="q3-a1" name="q3" value="true" />
@@ -279,13 +292,13 @@
                                                 <li>
                                                   <label for="q9-a1">
                                                     <input type="radio" id="q9-a1" name="q9" value="true" />
-                                                    Decorative Font(western style)
+                                                    <span style="font-family:'Bungee Shade', Papyrus">Bungee Shade</span>
                                                   </label>
                                                 </li>
                                                 <li>
                                                   <label for="q9-a2">
                                                     <input type="radio" id="q9-a2" name="q9" value="false" />
-                                                    Tahoma
+                                                    <span style="font-family: Verdana, Sans-Serif">Verdana</span>
                                                   </label>
                                                 </li>
                                               </ul>

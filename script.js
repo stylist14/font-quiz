@@ -26,7 +26,7 @@
     document.getElementById("q7-a2").addEventListener("click", function(){ alert("🎉Correct!")});
 
     document.getElementById("q8-a1").addEventListener("click", function(){alert("🎉Correct!")});
-    document.getElementById("q8-a2").addEventListener("click", function(){ alert("Try again")});
+    document.getElementById("q8-a2").addEventListener("click", function(){ alert("Try again. This one is italic, old-style.")});
 
     document.getElementById("q9-a1").addEventListener("click", function(){alert("🎉Correct!")});
     document.getElementById("q9-a2").addEventListener("click", function(){ alert("Try again")});

@@ -7,7 +7,7 @@
   body {
 	background: #ffffff;
 	color: #1b1b32;
-	font-family:Century Gothic, Helvetica, sans-serif;
+	font-family:Verdana, Tahoma;
 	margin: 20 px;
 }  
 
@@ -28,8 +28,7 @@ h1 {
 	text-align: center;
 	background-color: #8c8c8c;
   }
-  
-  
+   
 
 h2 {
 	color: #D96C6C;
@@ -38,6 +37,7 @@ h2 {
 h3 {
 	color: #D96C6C;
 }
+
 
   nav {
 	width: 50%;
@@ -126,7 +126,7 @@ h3 {
 	  display: block;
 	  width: 100%;
 	  margin-top: 20px;
-	  padding-top: 5px;
+	  padding-top: 0px;
   }
   
   p {
@@ -149,10 +149,15 @@ h3 {
 	margin-left: 15px;
   }
   
+  main {
+  padding-bottom: 60px;
+  }
+  
   footer {
-	background-color: #D96C6C;
+	background-color: #8c8c8c;
 	display: flex;
-	justify-content: left;
+    flex-wrap: wrap;
+	justify-content: center;
 }
   
   footer,

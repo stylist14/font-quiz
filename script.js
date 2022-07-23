@@ -58,4 +58,16 @@
     document.getElementById("q19-a1").addEventListener("click", function(){alert("🎉Correct!")});
     document.getElementById("q19-a2").addEventListener("click", function(){ alert("Try again")});
     
+    document.getElementById("q20-a1").addEventListener("click", function(){ alert("🎉Yes! Warm colors stand out, even in small quantities.")});
+
+    document.getElementById("q20-a2").addEventListener("click", function(){ alert("🎉Yes! Warm colors jump off the page, even in small quantities.")});
+
+    document.getElementById("q20-a3").addEventListener("click", function(){ alert("🎉Good. This one is on the borderline. Violet is warmer than the blue/greens, but cooler than the red/yellows.")});
+
+    document.getElementById("q20-a4").addEventListener("click", function(){ alert("Try again. This cool opal will need more area to stand out.")});
+
+    document.getElementById("q20-a5").addEventListener("click", function(){ alert("Try again. Blue will need more area to stand out because cool colors recede.")});
+
+    document.getElementById("q20-a6").addEventListener("click", function(){ alert("Try again. Green will need more area to stand out because cool colors recede.")});
+
    </script>

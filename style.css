@@ -29,13 +29,15 @@ h1 {
 	background-color: #8c8c8c;
   }
    
+  h2 {
+	font-size: 40px;
+color: #D96C6C;
 
-h2 {
-	color: #D96C6C;
 }
 
 h3 {
-	color: #D96C6C;
+font-size: 30px;
+color: #D96C6C;
 }
 
 

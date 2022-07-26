@@ -6,7 +6,7 @@
    
     document.getElementById("q2-a1").addEventListener("click", function(){alert("🎉 Correct!")});
     document.getElementById("q2-a2").addEventListener("click", function(){ alert("Not this one. The letter sides are straight up and don't need special attention.")});
-    document.getElementById("q2-a3").addEventListener("click", function(){ alert("🎉 Correct!")});
+    document.getElementById("q2-a3").addEventListener("click", function(){ alert("Not this one. Try again.")});
     document.getElementById("q2-a4").addEventListener("click", function(){ alert("Not this one. Try again.")});
 
     document.getElementById("q3-a1").addEventListener("click", function(){alert("Try again. To achieve contrast, the styles should be VERY different.")});

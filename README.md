@@ -17,4 +17,4 @@ For my web development class at Utah State University, I was assigned to make an
   * alerts
   * Google font APIs
 * CSS
- * flex
+  * flex

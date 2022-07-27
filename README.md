@@ -8,10 +8,10 @@ https://stylist14.github.io/font-quiz/
 For my web development class at Utah State University, I was assigned to make an educational web page. I love font design and typography, so this was the topic I chose to create my project around.
 
 ## Coding tools I used:
-* github
+* GitHub
 * HTML
   * radio buttons
-  * List elements <ul> <li>
+  * List elements
 * JavaScript
   * event listeners
   * alerts

@@ -1,4 +1,4 @@
-<script>
+
     document.getElementById("q1-a1").addEventListener("click", function(){alert("🎉 Correct!")});
     document.getElementById("q1-a2").addEventListener("click", function(){ alert("Try Again. Remember 'sans serif' means 'without' decorative lines at the end of the stroke.")});
     document.getElementById("q1-a3").addEventListener("click", function(){ alert("Try Again. Pay attention to the lines in the ends of the strokes.")});
@@ -70,4 +70,3 @@
 
     document.getElementById("q20-a6").addEventListener("click", function(){ alert("🎉 This green is cool too, let's change it to a warm color.")});
 
-   </script>

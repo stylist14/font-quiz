@@ -15,6 +15,6 @@ For my web development class at Utah State University, I was assigned to make an
 * JavaScript
   * event listeners
   * alerts
-  * Google font APIs
 * CSS
   * flex
+  * Google font APIs

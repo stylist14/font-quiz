@@ -20,6 +20,10 @@ For my web development class at Utah State University, I was assigned to make an
   * flex
   * Google font APIs
   
+## Thank you for contributing:
+Sean Duncan
+FreeCodeCamp.org
+
 ## Contact:
 Katie Hill
 hutch5252@hotmail.com

@@ -22,7 +22,7 @@ For my web development class at Utah State University, I was assigned to make an
   
 ## Thank you for contributing:
 * Sean Duncan
-* <FreeCodeCamp.org>
+* FreeCodeCamp.org
 
 ## Contact:
 Katie Hill

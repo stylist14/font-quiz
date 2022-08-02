@@ -21,8 +21,8 @@ For my web development class at Utah State University, I was assigned to make an
   * Google font APIs
   
 ## Thank you for contributing:
-Sean Duncan
-FreeCodeCamp.org
+* Sean Duncan
+* <FreeCodeCamp.org>
 
 ## Contact:
 Katie Hill

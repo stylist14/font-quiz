@@ -18,3 +18,7 @@ For my web development class at Utah State University, I was assigned to make an
 * CSS
   * flex
   * Google font APIs
+  
+## Contact:
+Katie Hill
+hutch5252@hotmail.com

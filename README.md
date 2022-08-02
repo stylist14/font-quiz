@@ -1,3 +1,4 @@
+![LearnAboutFonts](https://user-images.githubusercontent.com/105233452/182481190-25c27d14-df0a-471f-ad80-e491af8797cb.png)
 ## What is Font Quiz?
 I created this educational quiz to teach about font types and font pairing. Each section teaches a topic and then has a mini-test with instant feedback so the learner can put it into practice right away. There are lots of real font examples and visuals.
 

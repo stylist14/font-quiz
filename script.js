@@ -37,6 +37,9 @@
     document.getElementById("q11-a1").addEventListener("click", function(){alert("Try again")});
     document.getElementById("q11-a2").addEventListener("click", function(){ alert("🎉Correct!")});
 
+    document.getElementById("q12-a1").addEventListener("click", function(){alert("🎉Correct!")});
+    document.getElementById("q12-a2").addEventListener("click", function(){ alert("Try again")});
+
     document.getElementById("q13-a1").addEventListener("click", function(){alert("🎉Correct!")});
     document.getElementById("q13-a2").addEventListener("click", function(){ alert("Try again")});
 
